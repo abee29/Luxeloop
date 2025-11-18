@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luxe Loop — Preloved Luxury</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <img src="assets/logo.jpeg" alt="Luxe Loop Logo" />
+      <div class="brand-text">
+        <strong class="brand-name">LUXE LOOP</strong>
+        <small class="brand-slogan">Preloved • Curated • Authenticated</small>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#catalog">CATALOG</a>
+      <a href="#about">ABOUT US</a>
+      <a href="#contact">CONTACT US</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Luxe Loop</h1>
+        <p>Pre-loved designer bags, authenticated and curated. Sustainable luxury for the modern collector.</p>
+        <a class="hero-btn" href="#catalog">Explore Catalog</a>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2 class="section-title">Our Story</h2>
+      <p class="about-text">
+        Luxe Loop revives luxury pieces through a careful curation process focused on authenticity and condition.
+        Every item here carries a story — cared for, restored when needed, and ready for a new chapter in the hands of a stylish collector.
+      </p>
+    </section>
+
+    <section id="catalog" class="catalog-section">
+      <h2 class="section-title">Catalog</h2>
+      <div id="catalogContainer"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <strong>luxeloopofficial@gmail.com</strong></p>
+    </section>
+  </main>
+
+  <div class="cart-toggle" id="cartToggle" title="View Cart">👜</div>
+
+  <aside id="cartPanel" class="cart-panel">
+    <h4>Your Cart</h4>
+    <div id="cartItems"></div>
+    <hr />
+    <div class="cart-total">
+      <span>Subtotal</span>
+      <span>$<span id="cartTotal">0.00</span></span>
+    </div>
+    <button class="btn primary">Proceed to Checkout (Demo)</button>
+  </aside>
+
+  <footer>
+    © 2025 Luxe Loop — Preloved & Curated. Authenticity guaranteed.
+  </footer>
+
+  <script src="assets/script.js"></script>
+
+</body>
+</html>
